@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+header {
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(to bottom, #3cda83, #1d5c38);
+    color: #fff;
+    padding: 10px;
+    
+}
+h1 {
+    text-align: center;
+}
+p#header {
+    font-size: 1.2em;
+    margin-top: 10px;
+    text-align: center;
+}
+nav a {
+    
+    color: #fff;
+    text-align: left;
+    text-decoration: none;
+    margin-left: 1px;
+}
+h1.titulo {
+    font-family: 'idroid', sans-serif;
+    font-size: 2em;
+    margin: 0;
+    color:#1d5c38;
+}
+h2.subtitulo {
+    color: #1d5c38;
+    background-color: #85e0ad;
+    font-family: 'idroid', sans-serif;
+    font-size: 1em;
+    margin: 0;
+}
+main {
+    background-color: #fff;
+    padding: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-weight: 600ih;
+}
+body {
+    background-color: #85e0ad;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+.imagem-centralizada {
+    display: block; /* Força a imagem a se comportar como um elemento de bloco */
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; /* Defina uma largura para que a margem automática funcione */
+}
+p {
+    text-align: justify;
+    text-indent: 40px;
+    font-weight: 600;
+}
+span a {
+    color: #1d5c38;
+    font-weight: bold;
+    text-decoration: none;
+}
+span {
+    color: #1d5c38;
+    font-weight: bold;
+    text-decoration: none;
+}
+.extra {
+    background-color: #85e0ad;
+    border-radius: 20px;
+    
+    
+}
+.extra h2 {
+    color: #ffff;
+    background-color: #1d5c38;
+    padding: 10px;
+    margin:none;
+    border-radius: 20px 20px 0 0;
+    font-size: 1.3em;
+    
+}
+.extra p {
+    color: #333;
+    margin: 5px;
+    padding: 10px;
+}
+.container {
+    display: flex;
+    gap: 10px;
+    
+}
+.caixa {
+    
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    flex: 1;
+}
+footer {
+    background-color: #1d5c38;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+footer p {
+    margin: 0;
+    text-align: center;
+     
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.video {
+    background-color: #1d5c38;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+picture {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+video {
+    max-width: 100%;
+    height: auto;
+}
+iframe {
+    max-width: 100%;
+    height: auto;
+    width: 540px;
+    height: 315px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: 'Work Sans', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            /*
+            Medidas Absolutas: px, cm, mm, in, pt, pc
+            Medidas Relativas: em, ex, rem, vw, vh, vmin, vmax, %
+            */
+            font-size: 1em;
+            font-weight: 400;
+            /* font-weight: lighter | normal | bold | bolder | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900; */
+            font-style: normal;
+            /* font-style: normal | italic | oblique; */
+            text-decoration: none;
+            /* text-decoration: none | underline | overline | line-through; */
+        }
+        h1, h2{
+           
+            /* short-hand font */
+            /* font: [font-style] [font-variant] [font-weight] [font-size]/[line-height] [font-family]; */
+            font: italic small-caps bold 16px/30px 'Arial Black', Gadget, sans-serif;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>As fontes são um elemento crucial no design de uma página web. Elas ajudam a transmitir a mensagem e a personalidade do conteúdo. Em CSS, podemos controlar as fontes usando a propriedade <code>font-family</code>.</p>
+    <h2>Propriedade font-family</h2>
+    <p>A propriedade <code>font-family</code> permite especificar uma lista de fontes para um elemento. O navegador irá usar a primeira fonte disponível na lista. Se nenhuma das fontes estiver disponível, ele usará uma fonte genérica.</p>
+    <pre>
+        font-family: Arial, sans-serif;
+    </pre>  
+</body>
+</html>

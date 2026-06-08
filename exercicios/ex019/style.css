@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* em HTML id, em CSS # */
+/* em HTML class, em CSS . */
+/* em HTML tag, em CSS tag */
+body {
+    background-color: rgb(205,255,203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: rgb(4, 109, 0);
+    text-align: center;
+}
+h2 {
+    color: rgb(73, 109, 71);
+    text-align: center;
+}
+
+h1#principal {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(0, 255, 0);
+    padding: 10px;
+
+}
+.basico {
+    color: rgb(206, 209, 11);
+    text-align: center;
+    background-color: rgb(0, 255, 0);
+    padding: 10px;
+}
+.intermediario {
+    color: rgb(12, 33, 224);
+    text-align: center;
+    background-color: rgb(0, 255, 0);
+    padding: 10px;
+}
+.avancado {
+    color: rgb(187, 24, 13);
+    text-align: center;
+    background-color: rgb(0, 255, 0);
+    padding: 10px;
+}
