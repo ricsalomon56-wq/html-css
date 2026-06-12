@@ -17,23 +17,30 @@
     font-size: 1em;
 }
 .branco {
-    background-color: #fff;
+    background: #fff center no-repeat fixed;
     height: 800px;
 
     }
+.estrofe {
+    height: 200px;
+    width: 300px;
+    background-position: left center;
+}
 p {
     font-family: 'Sriracha', cursive;
-    font-size: 2vh;
+    font-size: 3vh ;
     line-height: 1.6;
     font-style: italic;
     margin: 1px;
     padding: 1px;
-    background-position: left center;
+    display:flex;
+    position:relative;
+    background-position: center left;
 }
 #flor {
-   background-image: url('imagens/background001.jpg');
+    background-image: url('imagens/background001.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     height: 700px;
 }
 article {
