@@ -15,6 +15,15 @@
         }
         table {
             width: 500px;
+            border-collapse: collapse;
+            position: relative;
+
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: lightgray ;
+
         }
 
         td , th {
@@ -27,13 +36,15 @@
             text-align: right;
         }
         thead {
-            background-color: grey;
+            background-color: rgb(10, 10, 10);
+            
         }
         caption {
             font-size: 1.5em;
             font-weight: bold;
             padding: 10px;
-            background-color: lightgray;
+            background-color: rgb(8, 8, 8);
+            color: white;
         }
     </style>
 </head>
